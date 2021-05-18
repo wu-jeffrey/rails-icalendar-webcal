@@ -5,6 +5,7 @@ class CalendarsController < ApplicationController
       format.ics do
         cal = Icalendar::Calendar.new
         cal.x_wr_calname = 'iCal Events Test'
+        calendar.append_custom_property("REFRESH-INTERVAL;VALUE=DURATION","P1H")
         ::Event.all.each do |ev|
           event = Icalendar::Event.new
           event.dtstart     = ev.start_time

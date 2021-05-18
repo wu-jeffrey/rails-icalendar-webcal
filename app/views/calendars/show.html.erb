@@ -1,5 +1,5 @@
 <h1>Demo app: webcal with icalendar gem</h1>
 
-Click here to subscribe to the calendar: <%= link_to 'subscribe', calendar_url(protocol: :webcal, format: :ics) %>
+Click here to subscribe to the calendar: <%= link_to 'subscribe', calendar_url(protocol: :webcal, format: :ics), target: "_blank" %>
 <br>
 Click here to download to the calendar: <%= link_to 'download', calendar_url(format: :ics) %>
