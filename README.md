@@ -1,8 +1,24 @@
-# Webcal links in Rails with the icalendar gem
+# README
 
-This is a demo Ruby on Rails app that implements a webcal calendar link using
-the `icalendar` gem. See the [accompanying blog post] for more details. Or,
-[see the app in action].
+This README would normally document whatever steps are necessary to get the
+application up and running.
 
-[accompanying blog post]: http://www.toasterlovin.com/rails-webcal-links-with-icalendar-gem/
-[see the app in action]: https://rails-icalendar-webcal.herokuapp.com/calendar
+Things you may want to cover:
+
+* Ruby version
+
+* System dependencies
+
+* Configuration
+
+* Database creation
+
+* Database initialization
+
+* How to run the test suite
+
+* Services (job queues, cache servers, search engines, etc.)
+
+* Deployment instructions
+
+* ...
